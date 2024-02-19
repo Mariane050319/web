@@ -1,0 +1,336 @@
+@charset "utf-8";
+@font-face{
+    font-family: b_backpack;
+    src: url(bBackpack.ttf);
+}
+.button{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    height: 20px;
+    color:#000000;
+    font-family:b_backpack ;
+    src: url(bBackpack.ttf);
+    font-size: 17px;
+    }
+@font-face{
+    font-family:caramel;
+    src: url(Caramel.ttf);
+}
+
+h1{
+    font-family:caramel;
+    src: url(Caramel.ttf);
+    font-size: 85px;
+    }
+  
+@font-face{
+    font-family:flowers kingdom;
+    src: url(Flowers\ Kingdom.ttf);
+}
+
+h2{
+    font-family:flowers kingdom;
+    src: url(Flowers\ Kingdom.ttf);
+    font-size: 35px;
+    color: #ececf0;
+}
+@font-face{
+    font-family:macchiato;
+    src: url(Macchiato.ttf);
+}
+@font-face{
+    font-family:musical_night ;
+    src: url(Magical\ Night.ttf);
+}
+
+h3{
+    font-family: musical_night;
+    src: url(Magical\ Night.ttf);
+    font-size: 45px;
+    color: #ececf0;
+}
+
+p{
+    font-family:macchiato;
+    src: url(MA);
+    font-size: 30px;
+}
+   
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #ffcccc;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 15px;
+    animation: surgir 3s ease;
+    animation-timeline: view(3);
+    animation-range: cover 50% cover 50%;
+}
+
+section.modulo p{
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #0e0202;
+}
+
+
+section.modulo.content{
+    padding: 40px 0;
+    background: #e9e5e5;
+    
+}
+section.modulo.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+section.modulo.parallax h1{
+    color: rgb(170, 17, 17);
+    text-align: center;
+    font-size: 400%;
+    text-transform: uppercase;
+    z-index: 50;
+    text-shadow: 20px 20px 20px #000000;
+}
+section.modulo.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 8;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0)50%, #000000 100%);
+}
+
+
+
+
+section.modulo.parallax-1{
+    background-image: url(fundogif.png); height: 1000px;
+}
+section.modulo.parallax-2{
+    background-image: url(realidadeavancada.png);
+}
+section.modulo.parallax-3{
+    background-image: url(foto\ java.png);
+}
+section.modulo.parallax-4{
+    background-image: url(wasm.png);
+}
+section.modulo.parallax-5{
+    background-image: url(ia.png);
+}
+section.modulo.parallax-6{
+    background-image: url(seguranca.png);
+}
+section.modulo.parallax-7{
+    background-image: url(htmlgif.png);
+}
+
+@font-face{
+    font-family: html5_values;
+    src: url(html5_values.ttf);
+}
+footer{
+    text-align: center;
+    font-family:html5_values;
+    src: url(html5_values.ttf);
+    color: #010108;
+    font-size: 20px;
+    
+    
+}
+
+@media all and (max-width: 820px){
+    @charset "utf-8";
+@font-face{
+    font-family: b_backpack;
+    src: url(bBackpack.ttf);
+}
+.button{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    height: 20px;
+    color:#000000;
+    font-family:b_backpack ;
+    src: url(bBackpack.ttf);
+    font-size: 17px;
+    }
+@font-face{
+    font-family:caramel;
+    src: url(Caramel.ttf);
+}
+
+h1{
+    font-family:caramel;
+    src: url(Caramel.ttf);
+    font-size: 70px;
+    }
+  
+@font-face{
+    font-family:flowers kingdom;
+    src: url(Flowers\ Kingdom.ttf);
+}
+
+h2{
+    font-family:flowers kingdom;
+    src: url(Flowers\ Kingdom.ttf);
+    font-size: 17px;
+    color: #ececf0;
+}
+@font-face{
+    font-family:macchiato;
+    src: url(Macchiato.ttf);
+}
+@font-face{
+    font-family:musical_night ;
+    src: url(Magical\ Night.ttf);
+}
+
+h3{
+    font-family: musical_night;
+    src: url(Magical\ Night.ttf);
+    font-size: 35px;
+    color: #ececf0;
+}
+
+p{
+    font-family:macchiato;
+    src: url(Macchiato.ttf);
+    font-size: 20px;
+}
+   
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #ffcccc;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 15px;
+    animation: surgir 3s ease;
+    animation-timeline: view(3);
+    animation-range: cover 50% cover 50%;
+}
+
+section.modulo p{
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #0e0202;
+}
+
+
+section.modulo.content{
+    padding: 40px 0;
+    background: #e9e5e5;
+    
+}
+section.modulo.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+section.modulo.parallax h1{
+    color: rgb(170, 17, 17);
+    text-align: center;
+    font-size: 400%;
+    text-transform: uppercase;
+    z-index: 50;
+    text-shadow: 20px 20px 20px #000000;
+}
+section.modulo.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: 8;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0)50%, #000000 100%);
+}
+
+
+
+
+section.modulo.parallax-1{
+    background-image: url(fundogif.png); height: 1000px;
+}
+section.modulo.parallax-2{
+    background-image: url(realidadeavancada.png);
+}
+section.modulo.parallax-3{
+    background-image: url(foto\ java.png);
+}
+section.modulo.parallax-4{
+    background-image: url(wasm.png);
+}
+section.modulo.parallax-5{
+    background-image: url(ia.png);
+}
+section.modulo.parallax-6{
+    background-image: url(seguranca.png);
+}
+section.modulo.parallax-7{
+    background-image: url(htmlgif.png);
+}
+iframe{
+    height: 100px;
+    width: 200px;
+}
+
+@font-face{
+    font-family: html5_values;
+    src: url(html5_values.ttf);
+}
+footer{
+    text-align: center;
+    font-family:html5_values;
+    src: url(html5_values.ttf);
+    color: #010108;
+    font-size: 10px;
+    
+    
+}
